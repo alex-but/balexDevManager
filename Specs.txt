@@ -1,0 +1,29 @@
+Create a nodejs server to create an API for a basic device management system.
+You can use Express as a web application framework and Redis as a database, but it's of your choosing if you use something else.
+
+Devices will consist of basic switches and lights.
+Common between them are : Name, On/Off Status.
+Lights have Brightness as an added Status.
+
+{
+  "Name" : "Switch1",
+  "Type" : "Switch",
+  "Status" : "on"/ "off"
+}
+
+{
+  "Name" : "Light1",
+  "Type" : "Light",
+  "Status" : "on"/ "off",
+  "Brightness" : 0-100
+}
+
+Using Postman ( or any other tool ), the API must respond to calls that :
+
+1. can create a user
+2. delete a user
+3. add devices to a user
+4. remove devices from a user
+5. control on/off status and brightness status.
+
+Optional tasks are welcome

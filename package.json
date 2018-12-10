@@ -1,0 +1,25 @@
+{
+  "name": "balexdevmanager",
+  "version": "1.0.0",
+  "description": "Node JS example server. The purpose is to define users, devices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IoT",
+    "devices",
+    "example",
+    "express"
+  ],
+  "author": "Alexandru But",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "redis": "^2.8.0"
+  }
+}
